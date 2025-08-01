@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="HỆ THỐNG QUẢN LÝ SÂN BÓNG"/>
+  </Properties>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout">
+    <Property name="useDefaultSource" type="boolean" value="false"/>
+    <Property name="columns" type="int" value="1"/>
+    <Property name="rows" type="int" value="1"/>
+    <Property name="useNullLayout" type="boolean" value="false"/>
+    <Property name="useInsets" type="boolean" value="true"/>
+    <Property name="insets" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors2.InsetsEditor">
+      <Insets value="[top=0,left=0,bottom=0,right=0]"/>
+    </Property>
+    <Property name="useMinimumSize" type="boolean" value="false"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors2.DimensionEditor">
+      <Dimension value="[-1, -1]"/>
+    </Property>
+    <Property name="usePreferredSize" type="boolean" value="false"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors2.DimensionEditor">
+      <Dimension value="[-1, -1]"/>
+    </Property>
+    <Property name="useMaximumSize" type="boolean" value="false"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors2.DimensionEditor">
+      <Dimension value="[-1, -1]"/>
+    </Property>
+    <Property name="useIsExpandable" type="boolean" value="false"/>
+    <Property name="isExpandable" type="boolean" value="false"/>
+    <Property name="useExpandable" type="boolean" value="false"/>
+    <Property name="expandable" type="boolean" value="false"/>
+    <Property name="useFill" type="boolean" value="true"/>
+    <Property name="fill" type="int" value="1"/>
+    <Property name="useAnchor" type="boolean" value="false"/>
+    <Property name="anchor" type="int" value="17"/>
+    <Property name="useWeightX" type="boolean" value="true"/>
+    <Property name="weightX" type="double" value="1.0"/>
+    <Property name="useWeightY" type="boolean" value="true"/>
+    <Property name="weightY" type="double" value="1.0"/>
+    <Property name="useGridX" type="boolean" value="false"/>
+    <Property name="gridX" type="int" value="0"/>
+    <Property name="useGridY" type="boolean" value="false"/>
+    <Property name="gridY" type="int" value="0"/>
+    <Property name="useGridWidth" type="boolean" value="false"/>
+    <Property name="gridWidth" type="int" value="1"/>
+    <Property name="useGridHeight" type="boolean" value="false"/>
+    <Property name="gridHeight" type="int" value="1"/>
+    <Property name="usePadX" type="boolean" value="false"/>
+    <Property name="padX" type="int" value="0"/>
+    <Property name="usePadY" type="boolean" value="false"/>
+    <Property name="padY" type="int" value="0"/>
+    <Property name="useIpadX" type="boolean" value="false"/>
+    <Property name="ipadX" type="int" value="0"/>
+    <Property name="useIpadY" type="boolean" value="false"/>
+    <Property name="ipadY" type="int" value="0"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors2.ColorEditor">
+          <Color blue="255" green="153" red="51" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI Black" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors2.ColorEditor">
+              <Color blue="255" green="255" red="255" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="HỆ THỐNG QUẢN LÝ SÂN BÓNG"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="0" gridy="0" gridwidth="1" gridheight="1" fill="1" ipadx="0" ipady="0" anchor="10" weightx="1.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=20]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ĐĂNG NHẬP"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton1ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="0" gridy="1" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=30,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ĐĂNG KÝ"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton2ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="1" gridy="1" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=30,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="QUẢN LÝ KHÁCH HÀNG"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton3ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="2" gridy="1" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=30,left=20,bottom=0,right=20]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="QUẢN LÝ SÂN BÓNG"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton4ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="0" gridy="2" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="QUẢN LÝ LOẠI SÂN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton5ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="1" gridy="2" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ĐẶT SÂN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton6ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="2" gridy="2" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=20]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LỊCH ĐẶT SÂN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton7ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="0" gridy="3" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="QUẢN LÝ TRẠNG THÁI SÂN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton8ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="1" gridy="3" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="QUẢN LÝ SÂN BÓNG (QLSB)"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton9ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="2" gridy="3" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=20]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="KHÁCH HÀNG - DANH SÁCH"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton10ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="0" gridy="4" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="THÔNG TIN SÂN"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton11ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="1" gridy="4" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=0,right=0]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors2.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="THOÁT"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" statement="jButton12ActionPerformed(evt)"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JPanelSupportLayout" value="org.netbeans.modules.form.compat2.layouts.JPanelSupportLayout$JPanelSupportConstraints">
+              <GridBagConstraints gridx="2" gridy="4" gridwidth="1" gridheight="1" fill="0" ipadx="0" ipady="0" anchor="10" weightx="0.0" weighty="0.0" insets="java.awt.Insets[top=20,left=20,bottom=20,right=20]"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form> 
